@@ -1,0 +1,42 @@
+Test scenarios:
+1. User is able to check out the weather for the next few days.
+2. User can find past news through the calendar.
+3. User can find out contact information of the web site.
+4. User can check political news.
+5. User can start following "pravda.if.ua" on facebook.
+
+Test cases:
+1. User is able to check out the weather for the next few days.
+   Steps:
+	- go to the web site pravda.if.ua;
+	- scroll down the page to the weather block;
+	- click on the weather block;
+	- user is redirected to the website gismeteo.ua and can find out the weather for the next few days.
+
+2. User can find past news through the calendar.
+   Steps:
+	- go to the web site pravda.if.ua;
+	- scroll down the page to the calendar block;
+	- click on the target date in the calendar;
+	- user is redirected to the selected date and can find the news.	
+
+3. User can find out contact information of the web site.
+   Steps:
+	- go to the web site pravda.if.ua;
+	- find the "Contacts" tab in the header row;
+	- click on it;
+	- user is redirected to the contact page and can find the contact information there.
+
+4. User can check political news.
+   Steps:
+	- go to the web site pravda.if.ua;
+	- find the "Political news" tab in the header row;
+	- click on it;
+	- user is forwarded to the political news page and can read the news.
+
+5. User can start following "pravda.if.ua" on Facebook.
+   Steps:
+	- go to the web site pravda.if.ua;
+	- scroll down the page to the Facebook block;
+	- click on the "like the page" button;
+	- the facebook page is opened and pravda.if.ua is added as a favorite page.
