@@ -1,0 +1,53 @@
+Test cases for selenium ide:
+
+1 Allo.ua
+	1. Go to the page https://allo.ua/
+	2. Go to the "Gadgets" section.
+	3. Choose Smart watches.
+	4. Then choose Apple watch series 6.
+	5. On product page choose 40mm screen.
+	6. Then Choose 44mm screen.
+	7. Choose blue color of the watch.
+	8. Add watch to the card.
+	9. Go to the "Busket" page.  
+	10. Press "Checkout" button.
+
+2 Ikea.com
+	1. Go to the page https://www.ikea.com/
+	2. Click on the "Go to https://www.ikea.ua" button.
+	3. Click on the "Products" tab.
+	4. Choose the "Products for bath" section.
+	5. Then choose the "faucets for the bath" section.
+	6. In the "faucets for the bath" section choose "svenskaer-svensher-zmishuvach".
+	7. on the product page press the "add to the cart" button.
+	9. Go to the "Busket" page.  
+	10. Press "Checkout" button.
+
+3 Wikipedia
+	1. Go to the page https://en.wikipedia.org/wiki/Main_Page
+	2. Write "Selenium software" in the "Search" field.
+	3. Find the "selenium ide" link and click on it.
+	4. Scroll down the page to the "Official Website" link and click on it.
+	5. On the "selenium.dev" website click on the "Projects" tab.
+ 	6. Scroll down to the "Selenium IDE" section and press the "Learn more" link.
+	7. Click on the "Chrome Download" button.
+	 
+4 Pravda.if.ua
+	1. Go to the page https://www.google.com/
+	2. Write down "Pravda.if.ua" in the "Search" field and press the "Search" button.
+	3. Click on the "Economical news" tab.
+	4. Click on the "Crime news" tab.
+	5. Click on the "Culturalal news" tab.
+	6. Scroll down and choose November 2 at the calendar block.
+	7. Click on the "Main page" tab.
+	8. Scroll down to the ""Social network" block and press the "Follow RSS Feed" button.
+
+5 Sierra-designs
+	1. Go to the page https://sierradesigns.com/
+	2. Scroll down the page to the Footer and choose "Tents" from the "Products" section.
+	3. Set filters: "Category" - 2 persons, "Doors" - 2 Doors.
+	4. Choose the "meteor-lite-2" tent.
+	5. Press the "Add to cart" button.
+	6. Press the "Proceed to checkout" button.
+
+

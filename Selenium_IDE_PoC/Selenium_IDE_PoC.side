@@ -1,0 +1,1272 @@
+{
+  "id": "c7e8330c-d0fa-4fc7-b73b-4db39f074ba6",
+  "version": "2.0",
+  "name": "Selenium_IDE_PoC",
+  "url": "https://allo.ua/",
+  "tests": [{
+    "id": "0ee048d3-be78-4651-b4c2-dd363409847e",
+    "name": "tc_1",
+    "commands": [{
+      "id": "6b83bb4c-7bca-48da-a19e-98c4f766ad1a",
+      "comment": "",
+      "command": "open",
+      "target": "https://allo.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "532ed6b6-264f-49b5-9d79-26fd2349a7f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "412b2b08-4dcd-466b-a282-e564669c79c9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,65.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc4dc4f6-9a71-4210-ba39-9b9afff412f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,590.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ca2b11-b9e0-4537-8970-14343e12db4c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1156.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faaa62b0-b8e6-4f32-b614-90e7b145a292",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1419.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a8fb2c-a456-47e5-aefe-c054dd617b4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tns5-item1 > .home-product__tabs-link",
+      "targets": [
+        ["css=#tns5-item1 > .home-product__tabs-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Планшети')])[2]", "xpath:link"],
+        ["xpath=//li[@id='tns5-item1']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//allo.ua/ua/products/internet-planshety/')])[21]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a4f256-7d84-4015-8d7d-76d5597d7207",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tns5-item3 > .home-product__tabs-link",
+      "targets": [
+        ["css=#tns5-item3 > .home-product__tabs-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Гаджети')])[2]", "xpath:link"],
+        ["xpath=//li[@id='tns5-item3']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//allo.ua/ua/gadzhety/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1863ca5-4819-46d2-83e0-4bb297bd5998",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#tns9-item3 .gallery__img",
+      "targets": [
+        ["css=#tns9-item3 .gallery__img", "css:finder"],
+        ["xpath=//img[@alt='Elari KidPhone Fresh Yellow']", "xpath:img"],
+        ["xpath=//div[@id='tns9-item3']/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div/div/div[3]/div/div/div[4]/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ae9571e-1d61-4799-ae01-6cdb0bda9a80",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#tns9-item3 .gallery__img",
+      "targets": [
+        ["css=#tns9-item3 .gallery__img", "css:finder"],
+        ["xpath=//img[@alt='Elari KidPhone Fresh Yellow']", "xpath:img"],
+        ["xpath=//div[@id='tns9-item3']/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div/div/div[3]/div/div/div[4]/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d9cd69b-2110-4e01-b171-fea3710418e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apple Watch Series 6 GPS, 44mm PRODUCT(RED) Aluminium Case with PRODUCT(RED) Sport Band (M00M3)",
+      "targets": [
+        ["linkText=Apple Watch Series 6 GPS, 44mm PRODUCT(RED) Aluminium Case with PRODUCT(RED) Sport Band (M00M3)", "linkText"],
+        ["css=#tns9-item0 .product-card__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Apple Watch Series 6 GPS, 44mm PRODUCT(RED) Aluminium Case with PRODUCT(RED) Sport Band (M00M3)')]", "xpath:link"],
+        ["xpath=//div[@id='tns9-item0']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//allo.ua/ua/smart-chasy/apple-watch-series-6-44-mm-product-red-aluminum-case-with-sport-band.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/div/div/div/div[3]/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apple Watch Series 6 GPS, 44mm PRODUCT(RED) Aluminium Case with PRODUCT(RED) Sport Band (M00M3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8f69a0f-6cd0-4e2f-9738-a946e5cf002a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,113.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c1fd650-5d58-4c47-94ab-433b8dfbb8e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=40 мм",
+      "targets": [
+        ["linkText=40 мм", "linkText"],
+        ["css=.product-attribute__item:nth-child(2) .product-attr-selection__item:nth-child(1) > .product-attr-selection__link", "css:finder"],
+        ["xpath=//a[contains(text(),'40 мм')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/ul/li[9]/div[2]/div[5]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//allo.ua/ua/smart-chasy/apple-watch-series-6-gps-40mm-product-red-aluminium-case-with-product-red-sport-band-m00a3.html')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'40 мм')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2615198f-7941-41d6-b4f3-c39226a4bb7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=44 мм",
+      "targets": [
+        ["linkText=44 мм", "linkText"],
+        ["css=.product-attribute__item:nth-child(2) .product-attr-selection__item:nth-child(2) > .product-attr-selection__link", "css:finder"],
+        ["xpath=//a[contains(text(),'44 мм')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/ul/li[9]/div[2]/div[5]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//allo.ua/ua/smart-chasy/apple-watch-series-6-44-mm-product-red-aluminum-case-with-sport-band.html')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'44 мм')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f5ee9df-c6b4-4f32-815d-6388864bbccc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-attribute__item:nth-child(3) > .product-attr-selection",
+      "targets": [
+        ["css=.product-attribute__item:nth-child(3) > .product-attr-selection", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/ul/li[9]/div[2]/div[5]/div[3]/ul", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddfdc7db-70bc-461c-941d-62b8b5ef9905",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-attribute__item:nth-child(3) > .product-attr-selection",
+      "targets": [
+        ["css=.product-attribute__item:nth-child(3) > .product-attr-selection", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/ul/li[9]/div[2]/div[5]/div[3]/ul", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0551067-dc82-4b6d-bd1e-56031818bf15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blue",
+      "targets": [
+        ["linkText=Blue", "linkText"],
+        ["css=.product-colors__item:nth-child(2) > .product-colors__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Blue')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/ul/li[9]/div[2]/div[5]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//allo.ua/ua/smart-chasy/apple-watch-series-6-44-mm-blue-aluminum-case-with-sport-band.html')]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a9069c-e003-49d5-a0fb-db25d81bad03",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-buy-button",
+      "targets": [
+        ["id=product-buy-button", "id"],
+        ["css=#product-buy-button", "css:finder"],
+        ["xpath=//button[@id='product-buy-button']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/ul/li[8]/div[2]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b8c52c2-0f12-41fb-9ec6-3955e3e3d1d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order-now",
+      "targets": [
+        ["css=.order-now", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "84388f42-126d-4e20-879d-7257997a0a62",
+    "name": "tc_2",
+    "commands": [{
+      "id": "164ca77f-c4ee-43fe-93ad-c21b1ceacd20",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72580916-0f9c-44b2-9cd6-4060c05ccccf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1513x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "249b3175-2fc1-4c3b-bc0c-2ab7cfb41603",
+      "comment": "",
+      "command": "click",
+      "target": "css=.website-link",
+      "targets": [
+        ["css=.website-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ua/uk/?ref=gwp-start')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de204abd-8d6e-4e92-b22c-0a09c1220c63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товари",
+      "targets": [
+        ["linkText=Товари", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Товари')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ua/uk/cat/tovari-products/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Товари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "385fa08e-897f-4be3-915a-000aa6484980",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товари для ванної кімнати",
+      "targets": [
+        ["linkText=Товари для ванної кімнати", "linkText"],
+        ["css=.hnf-menu__nav2__main > li:nth-child(11) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Товари для ванної кімнати')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ua/uk/cat/tovari-dlya-vannoyi-kimnati-ba001/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Товари для ванної кімнати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c99a4170-6fc8-48bf-8d71-9b8e59ade7bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Змішувачі для ванної кімнати",
+      "targets": [
+        ["linkText=Змішувачі для ванної кімнати", "linkText"],
+        ["css=li:nth-child(11) li:nth-child(8) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Змішувачі для ванної кімнати')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ua/uk/cat/zmishuvachi-dlya-vannoyi-kimnati-20724/')]", "xpath:href"],
+        ["xpath=//li[11]/nav/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Змішувачі для ванної кімнати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f186a2-8ce7-4478-b8c9-f0d469483141",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.plp-fragment-wrapper:nth-child(4) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-fragment-wrapper:nth-child(4) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/dalskaer-dalsher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726441_PE735310_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[4]/div/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc29e1f4-988f-4060-a232-a3b7be0acc73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/dalskaer-dalsher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726441_PE735310_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[2]/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c87725f7-cf3e-4312-9dad-e1bca5ff114f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.plp-fragment-wrapper:nth-child(1) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.plp-fragment-wrapper:nth-child(1) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ca5fda-bacd-4843-a49d-ef6991c0a79c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.plp-product-list__fragment:nth-child(2) .range-revamp-toggle-button",
+      "targets": [
+        ["css=.plp-product-list__fragment:nth-child(2) .range-revamp-toggle-button", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf77827e-3e75-4483-a080-81faa705e2ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-pill:nth-child(1)",
+      "targets": [
+        ["css=.plp-pill:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сортувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1fff01f-00d5-4efa-b152-ec4a57647539",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-radio-button:nth-child(3) #radio",
+      "targets": [
+        ["css=.plp-radio-button:nth-child(3) #radio", "css:finder"],
+        ["xpath=(//input[@id='radio'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='SEC_filter-sort']/div/label[3]/div/input", "xpath:idRelative"],
+        ["xpath=//label[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b49307cf-c188-467a-b0dd-9ef0e1a6dada",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-radio-button:nth-child(4) #radio",
+      "targets": [
+        ["css=.plp-radio-button:nth-child(4) #radio", "css:finder"],
+        ["xpath=(//input[@id='radio'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='SEC_filter-sort']/div/label[4]/div/input", "xpath:idRelative"],
+        ["xpath=//label[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eaf98c6-86fe-48cc-af22-4fa555a3bd2d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.plp-modal__content",
+      "targets": [
+        ["css=.plp-modal__content", "css:finder"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "467.5999755859375,332"
+    }, {
+      "id": "90e293be-1b88-4f12-8fe0-5bda44aa7ae9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.plp-modal__content",
+      "targets": [
+        ["css=.plp-modal__content", "css:finder"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "467.5999755859375,332"
+    }, {
+      "id": "0010415c-5da7-4674-9454-c34070a0b3e4",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.plp-modal__content",
+      "targets": [
+        ["css=.plp-modal__content", "css:finder"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "467.5999755859375,332"
+    }, {
+      "id": "ce4d72c8-3e33-4f0c-8db0-20bb38bb07f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-btn__inner--primary",
+      "targets": [
+        ["css=.plp-btn__inner--primary", "css:finder"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Переглянути 13')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "343e1755-4a11-4d96-8511-c39cf5da88c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.plp-fragment-wrapper:nth-child(4) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-fragment-wrapper:nth-child(4) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/dalskaer-dalsher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726441_PE735310_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[4]/div/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a9ad9c-29f2-4334-a677-7c642bb7b320",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/dalskaer-dalsher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726441_PE735310_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[2]/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd13c62-d3c5-4e20-990c-a26930c5f1c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.plp-fragment-wrapper:nth-child(4) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-fragment-wrapper:nth-child(4) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/dalskaer-dalsher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726441_PE735310_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[4]/div/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a81ea4-37ad-4272-bbb8-8ab3b9cd239f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/dalskaer-dalsher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726441_PE735310_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[2]/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8160b5b2-2e8b-4a22-84f5-c12d73fa3775",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1192.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a85a85a-5a8d-4b76-8250-c1523f9fcdfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image",
+      "targets": [
+        ["css=.plp-product-list__fragment:nth-child(2) .range-revamp-product-compact__image-hover > .range-revamp-aspect-ratio-image__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ua/uk/images/products/svenskaer-svensher-zmishuvach-dlya-rakovini-z-filtrom-hromovaniy__0726426_PE735301_S5.JPG?f=xxs')]", "xpath:img"],
+        ["xpath=//div[2]/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "479275ff-7219-4fed-9813-784a57425a39",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,680)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a23d7a11-b466-440d-a736-8d15f1c98a6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-product-information-section__button:nth-child(1) > .range-revamp-chunky-header",
+      "targets": [
+        ["css=.range-revamp-product-information-section__button:nth-child(1) > .range-revamp-chunky-header", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div[2]/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Інформація про товар')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae7dec1-a3c3-4d25-9a8d-61fb0249b3ce",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "467.5999755859375,247"
+    }, {
+      "id": "d57305e8-ca06-4042-b029-0bb29ea09c90",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "467.5999755859375,247"
+    }, {
+      "id": "434ab64d-bdab-480c-819d-e6a1b5767e06",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "467.5999755859375,247"
+    }, {
+      "id": "102486a9-2e99-4272-b52a-bec9af72fbec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-product-details #product-details-material-and-care .range-revamp-accordion__heading",
+      "targets": [
+        ["css=.range-revamp-product-details #product-details-material-and-care .range-revamp-accordion__heading", "css:finder"],
+        ["xpath=(//button[@type='button'])[39]", "xpath:attributes"],
+        ["xpath=(//li[@id='product-details-material-and-care']/div/button)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d62c95-a894-4f67-acb7-d89782924678",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "477.5999755859375,466"
+    }, {
+      "id": "f18b5805-2e74-45df-bb2c-b52cf08fb320",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "477.5999755859375,466"
+    }, {
+      "id": "ce9e21f1-0026-474a-b950-bd5fba7fd7f7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "477.5999755859375,466"
+    }, {
+      "id": "cb323460-a7ab-4880-a29f-3e659c82ef11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-product-details #product-details-sustainability-and-environment .range-revamp-accordion-item-header__title",
+      "targets": [
+        ["css=.range-revamp-product-details #product-details-sustainability-and-environment .range-revamp-accordion-item-header__title", "css:finder"],
+        ["xpath=(//li[@id='product-details-sustainability-and-environment']/div/button/span/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6802dfc-3cfe-456e-8349-f8760f49b79d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "461.5999755859375,497"
+    }, {
+      "id": "8a388797-d069-43d6-afd6-e6ebb8dcf028",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "461.5999755859375,497"
+    }, {
+      "id": "dd852d01-211f-4f52-99cc-2e44684e4472",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "461.5999755859375,497"
+    }, {
+      "id": "219d24a9-78f2-4309-9966-e7949d441439",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-product-details #product-details-packaging .range-revamp-accordion-item-header__title",
+      "targets": [
+        ["css=.range-revamp-product-details #product-details-packaging .range-revamp-accordion-item-header__title", "css:finder"],
+        ["xpath=(//li[@id='product-details-packaging']/div/button/span/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ace7c7e0-3bcf-4f99-8f38-95351cc2b241",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "477.5999755859375,492"
+    }, {
+      "id": "aefce9f6-0ec0-433e-bb10-3b38a1c7a5d8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "477.5999755859375,492"
+    }, {
+      "id": "276d70a5-e9ba-4cde-bb69-18e77abece01",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "477.5999755859375,492"
+    }, {
+      "id": "f79e1bb1-2d45-4e6e-977f-6c4a9d99cea6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-product-details #product-details-assembly-and-documents .range-revamp-accordion-item-header__title",
+      "targets": [
+        ["css=.range-revamp-product-details #product-details-assembly-and-documents .range-revamp-accordion-item-header__title", "css:finder"],
+        ["xpath=(//li[@id='product-details-assembly-and-documents']/div/button/span/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263b6298-ecd9-424e-aa8a-292c000dcf4b",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "486.5999755859375,495"
+    }, {
+      "id": "42912a1e-57b2-4376-8a8e-9a4e7384ad51",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "486.5999755859375,495"
+    }, {
+      "id": "1a49f5a6-ff67-4f79-84ef-770dbbda58da",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "486.5999755859375,495"
+    }, {
+      "id": "3cd262a6-bda1-4b92-88e2-01f9557440dc",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "486.5999755859375,-6"
+    }, {
+      "id": "a5e23c2f-72d3-48f4-a151-94225f4cd720",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "486.5999755859375,-6"
+    }, {
+      "id": "1b400ca8-03cc-4d7b-badf-17ef5dca25f0",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.range-revamp-modal__content",
+      "targets": [
+        ["css=.range-revamp-modal__content", "css:finder"],
+        ["xpath=//div[@id='range-modal-mount-node']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "486.5999755859375,-6"
+    }, {
+      "id": "bf25ee00-e638-4b94-ad19-31f799ec55df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-btn__inner--icon-primary-inverse path",
+      "targets": [
+        ["css=.range-revamp-btn__inner--icon-primary-inverse path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "133b8052-1dd0-4634-97d3-720bcecfc7aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-btn__inner--emphasised",
+      "targets": [
+        ["css=.range-revamp-btn__inner--emphasised", "css:finder"],
+        ["xpath=//main[@id='content']/div/div/div/div[2]/div[3]/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Додати до кошика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d127c06-b246-45c7-86ea-1770ef03e5a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cafc58b6-888d-4e2b-bc98-9683be93d4fc",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.rec-modal__content",
+      "targets": [
+        ["css=.rec-modal__content", "css:finder"],
+        ["xpath=//div[9]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "461.5999755859375,197"
+    }, {
+      "id": "6c352def-9992-4c27-a55c-2b9d901eb424",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.rec-modal__content",
+      "targets": [
+        ["css=.rec-modal__content", "css:finder"],
+        ["xpath=//div[9]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "461.5999755859375,197"
+    }, {
+      "id": "380e8146-c7b9-4d14-a548-184eedcb9be6",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.rec-modal__content",
+      "targets": [
+        ["css=.rec-modal__content", "css:finder"],
+        ["xpath=//div[9]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "461.5999755859375,197"
+    }, {
+      "id": "fc91884d-fabd-41a6-80f0-6f8d25e8090f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box-shadow:nth-child(3) .range-revamp-header-section__title--small",
+      "targets": [
+        ["css=.box-shadow:nth-child(3) .range-revamp-header-section__title--small", "css:finder"],
+        ["xpath=//div[3]/div/div/a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af524c1-ab07-4512-a057-570ad558323f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.range-revamp-btn__inner--emphasised .range-revamp-btn__label",
+      "targets": [
+        ["css=.range-revamp-btn__inner--emphasised .range-revamp-btn__label", "css:finder"],
+        ["xpath=//main[@id='content']/div/div/div/div[2]/div[3]/div/div[2]/div/div/button/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/button/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00ba7d74-5ccb-4790-b710-1c3b599191a5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e8efabb-3ecd-4393-8ac0-f0f2a9d06b98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rec-btn__inner--icon-primary-inverse .rec-svg-icon",
+      "targets": [
+        ["css=.rec-btn__inner--icon-primary-inverse .rec-svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7a57ec8-3780-4133-b029-18e606a3b91a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-svg-bag-added",
+      "targets": [
+        ["css=.hnf-svg-bag-added", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0cd7429-3cc7-4377-baf6-58e335efe52d",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButtonTop",
+      "targets": [
+        ["id=checkoutButtonTop", "id"],
+        ["css=#checkoutButtonTop", "css:finder"],
+        ["xpath=//input[@id='checkoutButtonTop']", "xpath:attributes"],
+        ["xpath=//div[@id='checkoutButtonBoxTop']/div/input", "xpath:idRelative"],
+        ["xpath=//li/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f62b58d4-26ba-4b4d-b6fd-5188eb2c106d",
+    "name": "tc_3",
+    "commands": [{
+      "id": "0cb81ad0-59ae-48fc-bd49-c46295c321e7",
+      "comment": "",
+      "command": "open",
+      "target": "https://en.wikipedia.org/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd4c8e16-b6a2-4ef4-bb7f-b992f2e0e060",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1515x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ec79c2e-5716-44d5-8b63-130f8f1f9cf2",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "selenium software"
+    }, {
+      "id": "27165e4b-63c7-4158-9a7a-95046d5f5d24",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "81b30f86-d1c3-4532-99aa-bb8304bd12c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .searchmatch:nth-child(2)",
+      "targets": [
+        ["css=a > .searchmatch:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div[3]/ul/li/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'software')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f5d1096-4953-44db-bd0b-223a6a1af74f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tocsection-3 .toctext",
+      "targets": [
+        ["css=.tocsection-3 .toctext", "css:finder"],
+        ["xpath=//div[@id='toc']/ul/li[2]/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Selenium IDE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "189c8328-636f-45c4-8e23-666538b665a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Official website",
+      "targets": [
+        ["linkText=Official website", "linkText"],
+        ["css=.official-website .external", "css:finder"],
+        ["xpath=//a[contains(text(),'Official website')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul[2]/li/span/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://selenium.dev/')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Official website')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f491535-a95f-41c1-be3a-83b706364377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item > span",
+      "targets": [
+        ["css=.nav-item > span", "css:finder"],
+        ["xpath=//nav[@id='navbar']/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5139488-f104-49d9-983a-2c7e6aa02877",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projects",
+      "targets": [
+        ["linkText=Projects", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Projects')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projects')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32816040-80a1-4b9e-87db-4f4d32b8479a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ide > span",
+      "targets": [
+        ["css=.ide > span", "css:finder"],
+        ["xpath=//div[@id='ideContent']/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf62b29b-d31d-48d6-b5ae-cf1341113508",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(4) .pluginWrapper:nth-child(1) > .button",
+      "targets": [
+        ["css=.section:nth-child(4) .pluginWrapper:nth-child(1) > .button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chrome Download')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8952",
+      "windowTimeout": 2000
+    }, {
+      "id": "6127edeb-9626-4b56-a34a-b51d2b057b34",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8952}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "083a6b4b-009b-449c-8a92-8a36bb0c5207",
+    "name": "tc_4",
+    "commands": [{
+      "id": "12f1d9b1-b057-45e2-a17f-ba732431be34",
+      "comment": "",
+      "command": "open",
+      "target": "https://pravda.if.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df8a1c1a-87b2-4e22-a2a3-e4b3a4b315a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "826x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20c55313-4de7-455c-a369-3d61c83802f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-golovne-menyu-1 > .menu-item-115036 > a",
+      "targets": [
+        ["css=#menu-golovne-menyu-1 > .menu-item-115036 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Економіка')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu-golovne-menyu-1']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://pravda.if.ua/category/ekonomika/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ec1439-cb4c-44a7-a983-04fdada075f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,342.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3b1eb17-7119-436d-aba0-154275f44514",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,745.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d29b1f14-9ff4-4ee7-a651-fb87920293ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-golovne-menyu-1 > .menu-item-115037 > a",
+      "targets": [
+        ["css=#menu-golovne-menyu-1 > .menu-item-115037 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Кримінал')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu-golovne-menyu-1']/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://pravda.if.ua/category/kriminal/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f854148-1aab-4c8c-8f17-53eeca1ff1c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.td-menu-item:nth-child(4) > a",
+      "targets": [
+        ["css=.td-menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Культура')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu-golovne-menyu-1']/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://pravda.if.ua/category/kultura/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc23081-c75c-4083-80d6-3ffdb58d8eac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,645.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "026e9246-72ba-4e99-a0a6-2c3bd5813176",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(1) > a",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//table[@id='wp-calendar']/tbody/tr[2]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pravda.if.ua/2020/11/02/')]", "xpath:href"],
+        ["xpath=//tr[2]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6e5d0c2-d041-4c7e-a569-773803555bd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.td-main-logo > .td-retina-data",
+      "targets": [
+        ["css=.td-main-logo > .td-retina-data", "css:finder"],
+        ["xpath=//img[contains(@src,'https://pravda.if.ua/wp-content/uploads/2020/04/log.png')]", "xpath:img"],
+        ["xpath=//div[@id='td-outer-wrap']/div/div/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8a0755c-1dd5-4d31-9bed-d21f8ec95a55",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1236.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cd0a1d5-37d7-407e-ac4c-33008bec3fce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.td_social_rss a",
+      "targets": [
+        ["css=.td_social_rss a", "css:finder"],
+        ["xpath=//a[contains(text(),'Підписатись')]", "xpath:link"],
+        ["xpath=//div[@id='tdi_29_6e1']/div/div[2]/div/div[3]/div[2]/div[2]/div/span[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pravda.if.ua/feed')]", "xpath:href"],
+        ["xpath=//div[2]/div/span[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "657ae748-f81a-4615-8686-2cc428a6153c",
+    "name": "tc_5",
+    "commands": [{
+      "id": "bdc4659e-3669-4913-bddd-14fdd1ae0742",
+      "comment": "",
+      "command": "open",
+      "target": "https://sierradesigns.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087c80f7-d8f0-4ccf-ace1-289dff64c1fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "826x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ca9f422-2559-4622-8fc3-9019a308059c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tents",
+      "targets": [
+        ["linkText=Tents", "linkText"],
+        ["css=.col-12:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tents')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/tents/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/article/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tents')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb4d8317-9d40-4f73-9768-2c99be474794",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=filter-link",
+      "targets": [
+        ["id=filter-link", "id"],
+        ["css=#filter-link", "css:finder"],
+        ["xpath=//button[@id='filter-link']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FILTER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e554c6db-37eb-4f90-9146-5d36e9da872d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=filter-link",
+      "targets": [
+        ["id=filter-link", "id"],
+        ["css=#filter-link", "css:finder"],
+        ["xpath=//button[@id='filter-link']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FILTER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a41fbfb-6ca5-4e64-b0d0-6e7e3712f1c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=filter-link",
+      "targets": [
+        ["id=filter-link", "id"],
+        ["css=#filter-link", "css:finder"],
+        ["xpath=//button[@id='filter-link']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FILTER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c16cf75f-5134-463d-b52d-979a8a0004be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2 Person Tents",
+      "targets": [
+        ["linkText=2 Person Tents", "linkText"],
+        ["css=#facetedSearch-navList--Category > .navList-item:nth-child(2) > .navList-action", "css:finder"],
+        ["xpath=//a[contains(text(),'2 Person Tents')]", "xpath:link"],
+        ["xpath=//ul[@id='facetedSearch-navList--Category']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sierradesigns.com/2-person-tents/')]", "xpath:href"],
+        ["xpath=//div/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2 Person Tents')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c72666d6-f091-4652-90ef-5784b4e32bab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navList-item:nth-child(2) > .navList-action--checkbox",
+      "targets": [
+        ["css=.navList-item:nth-child(2) > .navList-action--checkbox", "css:finder"],
+        ["xpath=//ul[@id='facetedSearch-navList--Doors']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2-person-tents/?_bc_fsnf=1&Doors=2+Doors')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71818072-959f-422d-aa5b-592b225a204d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product:nth-child(2) .card-image-hover",
+      "targets": [
+        ["css=.product:nth-child(2) .card-image-hover", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/form/ul/li[2]/article/a/figure/span/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/article/a/figure/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c00ae65-60bc-4f6f-8833-2a12dbd6f3c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,406.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3ea0c12-0d90-4964-8592-b3201badc26f",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-action-addToCart",
+      "targets": [
+        ["id=form-action-addToCart", "id"],
+        ["css=#form-action-addToCart", "css:finder"],
+        ["xpath=//input[@id='form-action-addToCart']", "xpath:attributes"],
+        ["xpath=//div[@id='target-skip']/div/div/div/section[2]/div/div[5]/div[2]/form/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a549298d-ebd4-4af3-aef8-c4db13389233",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PROCEED TO CHECKOUT",
+      "targets": [
+        ["linkText=PROCEED TO CHECKOUT", "linkText"],
+        ["css=.sec-check", "css:finder"],
+        ["xpath=//a[contains(text(),'PROCEED TO CHECKOUT')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/checkout')]", "xpath:href"],
+        ["xpath=//div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PROCEED TO CHECKOUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "20e6576d-e2fd-44ef-9745-3c475d5863d9",
+    "name": "Practical_Task",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ee048d3-be78-4651-b4c2-dd363409847e", "84388f42-126d-4e20-879d-7257997a0a62", "f62b58d4-26ba-4b4d-b6fd-5188eb2c106d"]
+  }],
+  "urls": ["https://allo.ua/", "https://www.ikea.com/", "https://en.wikipedia.org/wiki/Main_Page", "https://www.skyscanner.com.ua/?previousCultureSource=COOKIE&redirectedFrom=www.skyscanner.net", "https://www.skyscanner.com.ua/", "https://tickets.ua/", "https://www.bmw.ua/", "https://www.mountainhardwear.com/", "https://sierradesigns.com/"],
+  "plugins": []
+}
