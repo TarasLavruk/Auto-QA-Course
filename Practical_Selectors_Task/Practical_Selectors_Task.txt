@@ -1,0 +1,114 @@
+1 Allo.ua
+	1. Go to the page https://allo.ua/
+	2. Go to the "Gadgets" section 
+		//p[contains(text(),'Гаджети та електротранспорт')].
+		.menu__list.js-menu__list [href="//allo.ua/ua/gadzhety/"]
+	3. Choose Smart watches.
+		//div[@class='accordion'] //a[contains(text(),'Смарт-годинники')]
+		.portal-category__item [href="//allo.ua/ua/smart-chasy/"]
+	4. Then choose Apple watch series 6 
+		//a[contains(text(), 'Смарт-годинник Apple Watch Series 6 GPS, 40mm Blue Aluminium Case with Deep Navy Sport Band (MG143)')]
+		[title="Смарт-годинник Apple Watch Series 6 GPS, 40mm Blue Aluminium Case with Deep Navy Sport Band (MG143)"]
+	5. On product page choose 40mm screen. 
+		//ul[@class='product-attr-selection'] //a[contains(text(), '40 мм')]
+		.product-attribute__item [href="//allo.ua/ua/smart-chasy/apple-watch-series-6-gps-40mm-product-red-aluminium-case-with-product-red-sport-band-m00a3.html"]
+	6. Then Choose 44mm screen.
+		//ul[@class='product-attr-selection'] //a[contains(text(), '44 мм')]
+		.product-attr-selection [href="//allo.ua/ua/smart-chasy/apple-watch-series-6-44-mm-product-red-aluminum-case-with-sport-band.html"]
+	7. Choose blue color of the watch. 
+		//li[@class='product-colors__item'] //a[contains(text(), 'Blue')]
+		.product-colors.js-product-colors [href="//allo.ua/ua/smart-chasy/apple-watch-series-6-44-mm-blue-aluminum-case-with-sport-band.html"]
+	8. Add watch to the card. 
+		//button[@id='product-buy-button']
+		#product-buy-button
+	9. Go to the "Busket" page. 
+		//button[@class='shopping-cart__btn']  
+		.shopping-cart__mobile-click
+	10. Press "Checkout" button. 
+		//button[@class='order-now']
+		.cart-popup__footer .order-now
+
+2 Ikea.com
+	1. Go to the page https://www.ikea.com/
+	2. Click on the "Go to https://www.ikea.ua" button. 
+		//a[@class='website-link svelte-1vue97y']
+		.website-link.svelte-1vue97y
+	3. Click on the "Products" tab. 
+		//ul[@class='hnf-header__nav__main'] //a[contains(text(), 'Товари')]
+		.hnf-header__nav [href="https://www.ikea.com/ua/uk/cat/tovari-products/"]
+	4. Choose the "Products for bath" section. 
+		//a[contains(text(), 'Товари для ванної кімнати')]
+	5. Then choose the "faucets for the bath" section. 
+		//a[contains(text(), 'Змішувачі для ванної кімнати')]
+		[href="https://www.ikea.com/ua/uk/cat/zmishuvachi-dlya-vannoyi-kimnati-20724/"]
+	6. In the "faucets for the bath" section choose "svenskaer-svensher-zmishuvach". 
+		//div[contains(text(), 'SVENSKAR СВЕНШЕР')]
+	7. on the product page press the "add to the cart" button. 
+		//span[@class='range-revamp-btn__inner range-revamp-btn__inner--emphasised']
+		.range-revamp-btn__inner.range-revamp-btn__inner--emphasised .range-revamp-btn__label
+	9. Go to the "Busket" page.  
+		//a[@class='rec-text rec-added-to-cart__hero-link']
+		.svg-icon.hnf-svg-icon.hnf-svg-bag-added
+	10. Press "Checkout" button. 
+		//div[@id='checkoutButtonBoxTop'] //span[@class='ui-btn-text']
+		#checkoutButtonTop
+
+3 Wikipedia
+	1. Go to the page https://en.wikipedia.org/wiki/Main_Page
+	2. Write "Selenium software" in the "Search" field.
+	3. Find the "selenium ide" link and click on it. 
+		//li[@class='toclevel-2 tocsection-3']
+		[href="#Selenium_IDE"] .toctext
+	4. Scroll down the page to the "Official Website" link and click on it. 
+		//span[@class='official-website'] //a
+		.official-website [href="https://selenium.dev/"]
+	5. On the "selenium.dev" website click on the "Projects" tab. 
+		//a[contains(text(),'Projects')]
+		#navbar [href="/projects"]
+ 	6. Scroll down to the "Selenium IDE" section and press the "Learn more" link. 
+		//div[@id='ideContent'] //span
+		.learn-more.ide span
+	7. Click on the "Chrome Download" button.
+	 
+4 Pravda.if.ua
+	1. Go to the page https://www.google.com/
+	2. Write down "Pravda.if.ua" in the "Search" field and press the "Search" button.
+	3. Click on the "Economical news" tab.
+		//li[@class='menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-115036
+		.menu-item.menu-item-type-taxonomy.menu-item-object-category.td-menu-item.td-normal-menu.menu-item-115036 [href="https://pravda.if.ua/category/ekonomika/"]
+	4. Click on the "Crime news" tab.
+		//li[@class='menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-115037'] //a
+		.menu-item.menu-item-type-taxonomy.menu-item-object-category.td-menu-item.td-normal-menu.menu-item-115037 [href="https://pravda.if.ua/category/kriminal/"]
+	5. Click on the "Culturalal news" tab.
+		//li[@class='menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-115038'] //a
+		.menu-item.menu-item-type-taxonomy.menu-item-object-category.td-menu-item.td-normal-menu.menu-item-115038 [href="https://pravda.if.ua/category/kultura/"]
+	6. Scroll down and choose November 2 at the calendar block.
+		//div[@id='calendar_wrap'] //a[@href='https://pravda.if.ua/2020/11/02/']
+		#calendar_wrap [aria-label="Записи оприлюднені 02.11.2020"]
+	7. Click on the "Main page" tab.
+		//ul[@id='menu-golovne-menyu-1'] //a[contains(text(), 'ГОЛОВНА')]
+		#menu-golovne-menyu-1 [href="https://pravda.if.ua/"]
+	8. Scroll down to the ""Social network" block and press the "Follow RSS Feed" button.
+		//div[@class='td-social-box'] //a[contains(text(), 'Підписатись')]
+		[href="https://pravda.if.ua/feed"]
+
+5 Sierra-designs
+	1. Go to the page https://sierradesigns.com/
+	2. Scroll down the page to the Footer and choose "Tents" from the "Products" section.
+		//ul[@class='footer-info-list'] //a[contains(text(),  'Tents')]
+		.footer-info-list [href="/tents/"]
+	3. Set filters: "Category" - 2 persons, "Doors" - 2 Doors.
+		//a[@href='/tents/?_bc_fsnf=1&Capacity=2+Person'] | //a[@href='/tents/?_bc_fsnf=1&Doors=2+Doors']
+		[href='/tents/?_bc_fsnf=1&Capacity=2+Person'], [href='/tents/?_bc_fsnf=1&Doors=2+Doors']
+	4. Choose the "meteor-lite-2" tent.
+		//span[contains(text(), 'Meteor Lite 2')]
+		[src="https://cdn11.bigcommerce.com/s-2nze2/images/stencil/400x267/products/2287/10994/SD2019_Meteor_Lite_2_40155420_Web_3__92242.1580327812.jpg?c=2"]
+	5. Press the "Add to cart" button.
+		//input[@id='form-action-addToCart']
+		#form-action-addToCart
+	6. Press the "Proceed to checkout" button.
+		//div[@class='page-content mb-4 mt-4'] //a[@class='button button--primary sec-check']
+		.button.button--primary.sec-check
+		
+
+
