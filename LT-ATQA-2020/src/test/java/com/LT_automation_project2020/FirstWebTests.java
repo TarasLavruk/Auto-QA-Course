@@ -24,7 +24,7 @@ public class FirstWebTests {
                 driver.quit();
             }
         }
-        @Test(priority = 0, suiteName = "allo")
+        @Test(priority = 1, suiteName = "allo")
         public void alloUrlTest() {
 
             //Given user opens a browser and provides a valid url "https://allo.ua/"
@@ -34,7 +34,7 @@ public class FirstWebTests {
             Assert.assertTrue(driver.findElement(By.xpath("//body/div[@id='__allo']/div[@id='__layout']/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]")).isDisplayed());
         }
 
-        @Test(priority = 0, suiteName = "ikea")
+        @Test(priority = 2, suiteName = "ikea")
         public void ikeaUrlTest() {
 
             //Given user opens a browser and provides a valid url "https://www.ikea.com/"
@@ -44,7 +44,7 @@ public class FirstWebTests {
             Assert.assertTrue(driver.findElement(By.xpath("//body/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/a[1]")).isDisplayed());
         }
 
-        @Test(priority = 0, suiteName = "wiki")
+        @Test(priority = 3, suiteName = "wiki")
         public void wikiUrlTest() {
 
             //Given user opens a browser and provides a valid url "https://en.wikipedia.org/wiki/Main_Page"
@@ -54,7 +54,7 @@ public class FirstWebTests {
             Assert.assertTrue(driver.findElement(By.cssSelector("#searchInput")).isDisplayed());
         }
 
-        @Test(priority = 0, suiteName = "pravda")
+        @Test(priority = 4, suiteName = "pravda")
         public void pravdaUrlTest() {
 
             //Given user opens a browser and provides a valid url "https://pravda.if.ua"
@@ -64,7 +64,7 @@ public class FirstWebTests {
             Assert.assertTrue(driver.findElement(By.xpath("//body/div[@id='td-outer-wrap']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]")).isDisplayed());
         }
 
-        @Test(priority = 0, suiteName = "sierra")
+        @Test(priority = 5, suiteName = "sierra")
         public void sierraUrlTest() {
 
             //Given user opens a browser and provides a valid url "https://sierradesigns.com"
