@@ -18,7 +18,7 @@ public class WikiTest extends BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setupTest() {
-        driver.get("https://en.wikipedia.org/wiki/Main_Page");
+        driver.get(getWikiUrl());
         homePage = new HomePage(driver);
     }
 

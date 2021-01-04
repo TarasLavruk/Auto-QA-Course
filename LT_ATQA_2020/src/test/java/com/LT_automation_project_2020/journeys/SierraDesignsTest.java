@@ -18,7 +18,7 @@ public class SierraDesignsTest extends BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setupTest() {
-        driver.get("https://sierradesigns.com");
+        driver.get(getSierraDesignsUrl());
         if(driver.findElement(By.xpath("//button[@class='needsclick DismissButton__closeButtonImage-spg526-0 kvcQJV kl-private-reset-css-Xuajs1']")).isDisplayed()){
             driver.findElement(By.xpath("//button[@class='needsclick DismissButton__closeButtonImage-spg526-0 kvcQJV kl-private-reset-css-Xuajs1']")).click();
         }

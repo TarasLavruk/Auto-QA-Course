@@ -10,7 +10,7 @@ public class HomePage extends Page{
 
     private Header header;
     private Footer footer;
-    private String fitnessElectronicsReiPage = "//span[contains(text(), 'Fitness')]";
+    private String outletReiPage = "//a[contains(text(),'Shop REI Outlet')]";
 
 
     public HomePage(RemoteWebDriver driver) {
@@ -19,9 +19,9 @@ public class HomePage extends Page{
         this.footer = new Footer(driver);
     }
 
-    public FitnessElectronicsReiPage navigateToFitnessElectronicsReiPage() throws Exception {
-        driver.findElement(By.xpath(fitnessElectronicsReiPage)).click();
-        return PageFactory.newPage(driver, FitnessElectronicsReiPage.class);
+    public OutletReiPage navigateToOutletReiPage() throws Exception {
+        driver.findElement(By.xpath(outletReiPage)).click();
+        return PageFactory.newPage(driver, OutletReiPage.class);
     }
 
     public W3SchoolsExercisesPage navigateToW3SchoolsExercises() throws Exception {

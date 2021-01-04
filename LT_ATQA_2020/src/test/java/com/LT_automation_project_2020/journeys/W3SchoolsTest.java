@@ -17,7 +17,7 @@ public class W3SchoolsTest extends BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setupTest() {
-        driver.get("https://www.w3schools.com/");
+        driver.get(getW3SchoolsUrl());
         homePage = new HomePage(driver);
     }
 

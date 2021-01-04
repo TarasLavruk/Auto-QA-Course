@@ -17,7 +17,6 @@ public class PravdaIfTest extends BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setupTest() {
-        driver.get("https://pravda.if.ua/");
         homePage = new HomePage(driver);
     }
 
