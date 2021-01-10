@@ -11,7 +11,7 @@ public class EconomicsPravdaIfPage extends Page{
         super(driver);
     }
 
-    public boolean setEconomicsPravdaIfTitle(){
+    public boolean setEconomicsPravdaIfTitle() {
         return driver.findElement(By.xpath(economicsPravdaIfTitleLocator)).isDisplayed();
     }
 }

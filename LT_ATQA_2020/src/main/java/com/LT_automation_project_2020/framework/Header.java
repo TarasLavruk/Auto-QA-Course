@@ -10,6 +10,7 @@ public class Header extends GeneralElements{
 
     private String w3SchoolsExercisesLocator = "//a[@id='navbtn_exercises']";
     private String economicsPravdaIfPageLocator = "//body/div[@id='td-outer-wrap']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]";
+    private String criminalPravdaIfPageLocator = "//body/div[@id='td-outer-wrap']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]";
     private String searchWikiFieldLocator = "//input[@id='searchInput']";
     private String searchWikiButtonLocator = "//input[@id='searchButton']";
     protected RemoteWebDriver driver;
@@ -27,6 +28,7 @@ public class Header extends GeneralElements{
         driver.findElement(By.xpath(economicsPravdaIfPageLocator)).click();
         return PageFactory.newPage(driver, EconomicsPravdaIfPage.class);
     }
+
     public Header setSearchWikiTerm(String searchTerm) {
         driver.findElement(By.xpath(searchWikiFieldLocator)).sendKeys(searchTerm);
         return this;
