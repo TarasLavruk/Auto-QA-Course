@@ -34,10 +34,10 @@ public class WikiTest extends BaseTest {
 
         //Given user opens a browser and provides a valid url "https://en.wikipedia.org/wiki/Main_Page"
         //When user clicks enter, system redirects him to the wikipedia`s main page
-        //Then user can find the search field and enter the search term and be redirected to the search result page
+        //Then user can find the search field and enter the search term from the data provider and be redirected to the search result page
         resultWikiPage = homePage.searchWikiForItem(ResultWikiPage.class, searchTerm);
-        //And user can find the "Selenium IDE" link on the result page
-        Assert.assertTrue(resultWikiPage.setSearchTermIsDisplayed(), "The term is not correct!");
+        //And user can find the Title is on the result page
+        Assert.assertTrue(resultWikiPage.setSearchTermIsDisplayed(), "The title is not correct!");
     }
 
     @Test(groups = "main", suiteName = "ui")
