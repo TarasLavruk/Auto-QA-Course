@@ -22,7 +22,7 @@ public class PravdaIfTest extends BaseTest {
 
     @Test(groups = "main", suiteName = "ui")
     public void pravdaUrlTest() throws Exception {
-
+//TODO as this class is only for pravda.if.ua tests you need to move driver.get into BeforeMethod for reusability
         //Given user opens a browser and provides a valid url "https://pravda.if.ua"
         driver.get("https://pravda.if.ua");
         //When user clicks enter, system redirects him to the pravda`s main page
