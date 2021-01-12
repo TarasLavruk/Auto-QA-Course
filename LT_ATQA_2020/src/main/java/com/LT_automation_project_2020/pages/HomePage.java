@@ -5,7 +5,7 @@ import com.LT_automation_project_2020.framework.Header;
 import com.LT_automation_project_2020.framework.PageFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
+//TODO if you're using different web sites you need to have different HomePages for them because otherwise it doesn't make sense and becomes messy
 public class HomePage extends Page{
 
     private Header header;
