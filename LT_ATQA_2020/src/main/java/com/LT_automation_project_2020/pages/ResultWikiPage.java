@@ -11,7 +11,7 @@ public class ResultWikiPage extends Page{
     public ResultWikiPage(RemoteWebDriver driver) {
         super(driver);
     }
-
+//TODO if you're checking if element is displayed use isSetSeleniumIDEDisplayed() to avoid confusion, please update all affected methods, also please avoid redundant empty lines
     public boolean setSeleniumIDEDisplayed() {
 
         return driver.findElement(By.xpath(seleniumIDELocator)).isDisplayed();
