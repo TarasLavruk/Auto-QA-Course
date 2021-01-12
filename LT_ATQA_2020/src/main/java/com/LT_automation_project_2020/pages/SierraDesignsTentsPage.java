@@ -15,7 +15,7 @@ public class SierraDesignsTentsPage extends Page {
     public boolean setTents () {
         return driver.findElement(By.xpath(sierraDesignsTentsLocator)).isDisplayed();
     }
-
+//TODO if these methods are redundant please remove them instead of just commenting them out, same applies to the variables
 //    public Header setSearchWikiTerm(String searchTerm) {
 //        driver.findElement(By.xpath(searchWikiFieldLocator)).sendKeys(searchTerm);
 //        return this;
