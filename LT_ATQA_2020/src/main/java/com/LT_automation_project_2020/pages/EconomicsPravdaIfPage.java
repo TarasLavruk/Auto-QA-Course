@@ -10,7 +10,7 @@ public class EconomicsPravdaIfPage extends Page{
     public EconomicsPravdaIfPage(RemoteWebDriver driver) {
         super(driver);
     }
-
+//TODO please rename this method as you're not setting anything here, also you can explore if driver.getTitle() can be used
     public boolean setEconomicsPravdaIfTitle() {
         return driver.findElement(By.xpath(economicsPravdaIfTitleLocator)).isDisplayed();
     }
