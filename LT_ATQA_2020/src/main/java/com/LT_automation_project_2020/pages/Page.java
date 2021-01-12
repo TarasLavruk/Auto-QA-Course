@@ -11,7 +11,7 @@ public abstract class Page {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 30);
     }
-
+//TODO please uncomment these methods and try to reuse common methods on all pages instead of duplicating code
 //    protected <T extends Page>T clickOnElement(By selector, Class<T> clazz) {
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
 //
