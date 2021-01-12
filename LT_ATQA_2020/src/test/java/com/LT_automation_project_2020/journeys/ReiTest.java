@@ -31,6 +31,6 @@ public class ReiTest extends BaseTest {
         //And user can ensure that the "REI Outlet" page contains the "Fitness" header
         Assert.assertTrue(outletReiPage.setOutletReiTitle(), "Title is wrong!");
     }
-
+//TODO please remove redundant empty lines
 
 }
