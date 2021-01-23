@@ -23,5 +23,6 @@ public class AmazonHomePage extends Page{
     public AmazonElectronicsPage navigateToAmazonElectronics() throws Exception {
         return amazonHeader.navigateToAmazonElectronics();
     }
+
 }
 

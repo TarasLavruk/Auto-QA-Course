@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -66,5 +67,17 @@ public abstract class Page {
         } catch (Exception ex) {
             return false;
         }
+    }
+
+    protected <T extends Page>T selectDropdownOption(By selector, String optionName, Class<T> clazz) throws Exception {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
+        Select select = new Select(driver.findElement(selector));
+        List<WebElement> options = select.getOptions();
+        for (WebElement option : options) {
+            if (option.getText().equals(optionName)) {
+                option.click();
+            }
+        }
+        return PageFactory.newPage(driver, clazz);
     }
 }

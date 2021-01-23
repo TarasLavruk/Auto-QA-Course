@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class AmazonComputersAndAccessoriesPage extends Page{
 
     private String tabletsAmazonPageLocator = "//div[@class='a-section octopus-pc-category-card-v2-category-title']//span[contains(text(), 'Tablets')]";
-    private String monitorsAmazonPageLocator = "//div[@class='a-section octopus-pc-category-card-v2-category-title']//span[contains( text(), 'Monitors')]";
+    private String monitorsAmazonPageLocator = "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/ul[1]/span[10]/li[1]/span[1]/div[1]/a[1]/div[1]/div[1]";
 
     public AmazonComputersAndAccessoriesPage(RemoteWebDriver driver) {
         super(driver);

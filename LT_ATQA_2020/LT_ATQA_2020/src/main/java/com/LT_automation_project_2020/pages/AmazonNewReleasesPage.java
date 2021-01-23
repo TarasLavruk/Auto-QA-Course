@@ -2,7 +2,10 @@ package com.LT_automation_project_2020.pages;
 
 import com.LT_automation_project_2020.framework.PageFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.util.List;
 
 public class AmazonNewReleasesPage extends Page{
 
@@ -14,12 +17,19 @@ public class AmazonNewReleasesPage extends Page{
         super(driver);
     }
 
-    public String getNewReleasesTitles(){
-        return driver.findElement(By.xpath(newReleasesTitlesLocator)).getText();
-    }
+    public boolean ifAllTitlesAreExist() {
+        boolean result = true;
 
-    public boolean ifAllTitlesAreExist () {
-        return driver.findElement(By.xpath(newReleasesListLocator)).getText().contains(getNewReleasesTitles());
+        List<WebElement> elements = getElements(By.xpath(newReleasesTitlesLocator));
+
+        for (WebElement element : elements) {
+            System.out.println(elements);
+            if (!element.findElement(By.xpath(newReleasesListLocator)).isDisplayed()) {
+                result = false;
+                break;
+            }
+        }
+        return result;
     }
 
     public AmazonMostGiftedPage navigateToAmazonMostGifted() throws Exception {
