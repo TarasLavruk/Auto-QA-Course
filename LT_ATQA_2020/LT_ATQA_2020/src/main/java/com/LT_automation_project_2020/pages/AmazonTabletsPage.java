@@ -8,7 +8,6 @@ import java.util.List;
 
 public class AmazonTabletsPage extends Page{
 
-
     private String checkBoxLocator = "//body[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[8]/ul[1]/li[1]/span[1]/a[1]/div[1]/label[1]/i[1]";
     private String primeLabelLocator = "//i[@class='a-icon a-icon-prime a-icon-medium']";
     private String tabletsListLocator = "//div[@class='a-section aok-relative s-image-fixed-height']";

@@ -31,23 +31,32 @@ public class AmazonMonitorsPage extends Page{
         return clickOnElement(By.xpath(selectDropdownLocator), AmazonMonitorsPage.class);
     }
 
+
+        public static void main(String[] args) {
+            List<String> wordsList = Arrays.asList("I", "love", "learning", "on", "JavaRush");
+            String[] wordsArray = (String[]) wordsList.toArray();
+
+            for (String word : wordsArray) {
+                System.out.println(word);
+            }
+
+        }
+
+
         public boolean ifActualResultValid(){
         List<WebElement> elements = getElements(By.xpath(itemRatingLocator));
         boolean result = true;
-
+//        But i don`t know how to convert the List to the Array((
         for (int i = 0; i < elements.size(); i++) {
-            WebElement el = elements.get(i);
+            int max = elements(i);
+            for (int j = i + 1; j < elements.size(); j++) {
 
-//            if (el > elements.get(i)  ){
-//            if (!isDisplayed(element, By.xpath(sponsoredLabelLocator))) {
-//                if ((!element.findElement(By.xpath(rating4Locator)).isDisplayed() ||
-//                        !element.findElement(By.xpath(rating5Locator)).isDisplayed()) &&
-//                        Integer.parseInt(element.findElement(By.xpath(itemPriceLocator)).getText())<100){
-//                    result = false;
-//                    break;
+                if (max < elements(j)) {
+                    result = false;
+                    break;
                 }
-//            }
-//        }
+            }
+        }
         return result;
     }
 
