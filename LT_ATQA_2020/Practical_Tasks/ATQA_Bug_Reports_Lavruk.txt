@@ -1,0 +1,33 @@
+1. The header tab "articles"(статті) is not clickable.
+   Summary: Nothing happens when user is clicking the "articles" tab.
+   Steps to reproduce:
+	- go to the web site pravda.if.ua;
+	- find the "articles" tab in the header row;
+	- click on it.
+   Expected result: the "articles" page is open.
+   Actual result: nothing happens when user is clicking the "articles" tab.
+   Environment: Windows 10 Enterprize 2016 LTSB, version 1607, OS Build 14393.2759
+		Google Chrome Version 86.0.4240.193 (Official Build) (64-bit)
+
+2. The ad block is shown over the articles block.
+   Summary: the advertisment block covers the articles tabs.
+   Steps to reproduce:
+	- go to the web site pravda.if.ua;
+	- find the "Economic news" tab in the header row;
+	- click on it;
+	- user is forwarded to the economic news page.
+   Expected result: user can see the articles block without any hindrance.
+   Actual result: ad block is shown over the articles block.
+   Environment: Windows 10 Enterprize 2016 LTSB, version 1607, OS Build 14393.2759
+		Google Chrome Version 86.0.4240.193 (Official Build) (64-bit)
+
+3. XML page is opened when clickking the "RSS follow" link.
+   Summary: when clicking the "RSS follow" link, xml page is opened instead of redirecting to the RSS  
+   Steps to reproduce:
+	- go to the web site pravda.if.ua;
+	- scroll down the page to the "social network"(ми в соцмережах) block;
+	- click the "follow"(підписатись) link ;
+   Expected result: user is redirected to the RSS page and can follow pravda.if.ua.
+   Actual result: user is forwarded to the xml code page.
+   Environment: Windows 10 Enterprize 2016 LTSB, version 1607, OS Build 14393.2759
+		Google Chrome Version 86.0.4240.193 (Official Build) (64-bit)
